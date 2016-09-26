@@ -43,7 +43,7 @@ namespace FlashVideoFiles
         public List<ManifestDRMAdditionalHeader> DRMAdditionalHeader { get; set; }
 
         [XmlElement("bootstrapInfo")]
-        public List<ManifestBootstrapInfo> BootstreapInfo { get; set; }
+        public List<ManifestBootstrapInfo> BootstrapInfo { get; set; }
 
         [XmlElement("media")]
         public List<ManifestMedia> Media { get; set; }
@@ -56,7 +56,7 @@ namespace FlashVideoFiles
             {
                 var manifest = (F4Manifest)s.Deserialize(reader);
                 foreach (var media in manifest.Media)
-                    media.ManifestBootstrapInfo = manifest.BootstreapInfo.Where(bootstrap => bootstrap.ID == media.BootstrapInfoID).FirstOrDefault();
+                    media.ManifestBootstrapInfo = manifest.BootstrapInfo.Where(bootstrap => bootstrap.ID == media.BootstrapInfoID).FirstOrDefault();
                 return manifest;
             }
         }
