@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Xml.Serialization;
 using System.IO;
 
-namespace FlashVideoFiles
+namespace FlashVideoFiles.F4M
 {
     [Serializable]
     [XmlRoot("manifest")]

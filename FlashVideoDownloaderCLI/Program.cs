@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using FlashVideoFiles;
 using System.IO;
 using System.Net;
+using FlashVideoFiles.F4M;
 
 namespace FlashVideoDownloaderCLI
 {
