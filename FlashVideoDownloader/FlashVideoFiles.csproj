@@ -42,7 +42,7 @@
     <Compile Include="F4VBoxes\BootstrapInfoBox.cs" />
     <Compile Include="F4VBoxes\BoxParser.cs" />
     <Compile Include="ExtendedBinaryReader.cs" />
-    <Compile Include="F4VBoxes\F4Manifest.cs" />
+    <Compile Include="F4M\F4Manifest.cs" />
     <Compile Include="F4VBoxes\F4VBoxHeader.cs" />
     <Compile Include="F4VBoxes\F4VBox.cs" />
     <Compile Include="F4VBoxes\FragmentRunTableBox.cs" />
