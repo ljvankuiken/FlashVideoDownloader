@@ -39,6 +39,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="F4M\ManifestBootstrapInfo.cs" />
+    <Compile Include="F4M\ManifestDRMAdditionalHeader.cs" />
+    <Compile Include="F4M\ManifestMedia.cs" />
     <Compile Include="F4VBoxes\BootstrapInfoBox.cs" />
     <Compile Include="F4VBoxes\BoxParser.cs" />
     <Compile Include="ExtendedBinaryReader.cs" />
